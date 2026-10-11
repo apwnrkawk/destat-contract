@@ -12,6 +12,10 @@ struct Answer {
 }
 
 contract Survey {
+  //key-value Storage (like hashMap)
+  //Key range
+  //0x00000000000000000000000000000000000000000000000000000000000000:0
+  //0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:2^256 - 1
   string public title;
   string public description;
   uint256 public targetNumber;
