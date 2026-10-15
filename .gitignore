@@ -35,3 +35,6 @@
 .claude/
 AGENTS.md
 CLAUDE.md
+
+#로컬 테스트 배포기록
+ignition/deployments/chain-31337
